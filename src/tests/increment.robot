@@ -7,6 +7,7 @@ Suite Teardown  Close Browser
 At start the counter is zero
     Go To  ${HOME_URL}
     Get Title  ==  Laskuri
+    Click  button >> text=Nollaa
     Get Text  body  *=  nappia painettu 0 kertaa
 
 When button pressed twice the counter is two
